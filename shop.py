@@ -25,6 +25,12 @@ FLEET = {
     "electric": 5
 }
 
+CUSTOMERS = {
+    "C1001": "Susan",
+    "C1002": "Mark Twaine",
+    "C1003": "Mathew Lembark" 
+}
+
 def new_main():
     print("New main commit need to merge with feature/new")
 def new():
