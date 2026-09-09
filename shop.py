@@ -26,6 +26,13 @@ FLEET = {
 }
 
 
+def total_bikes():
+    total = 0
+    for entry, amount in FLEET:
+        rate = RATES[entry]
+        total += (rate * amount)
+    return total
+
 def greet_customer():
     """Print a short welcome message using the shop's name and hours."""
     print(f"Welcome to {SHOP_NAME}! We're open {OPENING_HOURS}.")
