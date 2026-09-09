@@ -25,6 +25,8 @@ FLEET = {
     "electric": 5
 }
 
+def new_main():
+    print("New main commit need to merge with feature/new")
 
 def total_bikes():
     total = 0
