@@ -1,0 +1,12 @@
+# Reference materials for this practice repo (kept locally, not tracked)
+concepts.txt
+FIT2109_In-Class_Demonstration_Git_1.pdf
+template/
+
+# Python
+__pycache__/
+*.pyc
+
+# Editors
+.vscode/
+.DS_Store
