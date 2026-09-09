@@ -16,11 +16,13 @@ RATES = {
     "mountain": 12.0,
     "road": 10.0,
     # Add new models here
+    "electric": 18.0
 }
 
 FLEET = {
     "cruiser": 6,
     "mountain": 4,
+    "electric": 5
 }
 
 
