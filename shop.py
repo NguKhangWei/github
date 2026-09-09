@@ -29,7 +29,8 @@ def new_main():
     print("New main commit need to merge with feature/new")
 def new():
     print("To be merged into main")
-
+def new_v2():
+    pass
 
 def total_bikes():
     total = 0
