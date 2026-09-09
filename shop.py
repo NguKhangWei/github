@@ -31,8 +31,11 @@ def new():
     print("To be merged into main")
 def new_v2():
     pass
+def new_v3():
+    pass
 
 def total_bikes():
+    print()
     total = 0
     for entry, amount in FLEET.items():
         rate = RATES[entry]
