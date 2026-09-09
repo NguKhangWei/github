@@ -27,6 +27,9 @@ FLEET = {
 
 def new_main():
     print("New main commit need to merge with feature/new")
+def new():
+    print("To be merged into main")
+
 
 def total_bikes():
     total = 0
