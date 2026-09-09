@@ -33,7 +33,7 @@ def new():
 
 def total_bikes():
     total = 0
-    for entry, amount in FLEET:
+    for entry, amount in FLEET.items():
         rate = RATES[entry]
         total += (rate * amount)
     return total
@@ -75,9 +75,14 @@ def main():
         metavar=("MODEL", "QUANTITY"),
         help="Add QUANTITY units of MODEL to the fleet and print the new total.",
     )
+
+    parser.add_argument("--total", action="store_true")
     args = parser.parse_args()
 
-    if args.restock:
+    if args.total:
+        total = total_bikes()
+        print(f"The total is is {total}")
+    elif args.restock:
         model, quantity = args.restock
         new_total = restock(model, int(quantity))
         print(f"Restocked {model}: now {new_total} in fleet.")
