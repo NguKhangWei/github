@@ -25,6 +25,9 @@ FLEET = {
     "electric": 5
 }
 
+def new():
+    print("To be merged into main")
+
 
 def total_bikes():
     total = 0
