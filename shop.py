@@ -20,7 +20,7 @@ RATES = {
 }
 
 FLEET = {
-    "cruiser": 6,
+    "cruiser": 16,
     "mountain": 4,
     "electric": 5
 }

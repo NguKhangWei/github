@@ -12,3 +12,4 @@ __pycache__/
 .DS_Store
 uncommitted.txt
 new_file.txt
+testfile.txt
