@@ -50,7 +50,7 @@ def current_main2():
 def merge():
     pass
 
-def new():
+def new2():
     pass
 
 def total_bikes():
