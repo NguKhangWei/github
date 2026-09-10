@@ -37,7 +37,7 @@ def new():
     print("To be merged into main")
 def new_v2():
     pass
-def new_v3():
+def new_rebase():
     pass
 def new_main():
     pass
