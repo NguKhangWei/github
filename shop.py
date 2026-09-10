@@ -43,6 +43,8 @@ def current_main():
     pass
 
 def current_main2():
+
+def merge():
     pass
 
 def total_bikes():
