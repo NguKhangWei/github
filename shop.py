@@ -41,6 +41,8 @@ def new_v3():
     pass
 def new_main():
     pass
+def new_main2():
+    pass
 
 def total_bikes():
     print()
