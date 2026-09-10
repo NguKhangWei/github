@@ -31,17 +31,7 @@ CUSTOMERS = {
     "C1003": "Mathew Lembark" 
 }
 
-def new_main():
-    print("New main commit need to merge with feature/new")
-def new():
-    print("To be merged into main")
-def new_v2():
-    pass
-def new_rebase2():
-    pass
-def new_main():
-    pass
-def new_main2():
+def merge():
     pass
 
 def total_bikes():
