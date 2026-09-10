@@ -11,3 +11,4 @@ __pycache__/
 .vscode/
 .DS_Store
 uncommitted.txt
+new_file.txt
