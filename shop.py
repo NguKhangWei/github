@@ -38,6 +38,9 @@ def new():
 def new_v2():
     pass
 
+def merge2():
+    pass
+
 
 def current_main():
     pass
